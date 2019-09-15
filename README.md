@@ -4,6 +4,10 @@ Cardiac2Tex is a simple python program. Given a Cardiac program Input (represent
 
 The TeX source is printed on the standard output and needs to be redirected to a file if needed. Once done, a simple *pdflatex file* should do the trick in order to get your slide (the LateX compilation is not done by Cardiac2TeX).
 
+# Example 
+
+You can run the program as-is (python3 main.py > example.tex), and then compile the file (pdflatex example.tex) to see 
+how Cardiac2TeX translate a simple Cardiac program that computes the sum of 3 numbers.
 
 # Files
 ## main.py
